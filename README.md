@@ -115,15 +115,15 @@ As a team, we held a planning session to decide what it was we wanted to build, 
 5. Within 3 days, our backend was complete which allowed us to start on the frontend.
 6. The frontend pages were distributed amongst ourselves, with some focused more on functionality and others focused more on design and usability.
 
-<img src="src/assets/readme/trello.png" width=700>
+<img src="src/assets/readme/Trello.png" width=700>
 
-Here is an example of our Trello board. Each morning we would discuss what we worked on the day before, as well as any issues / delays that require the group to look into. We would then decide what we're working on that day, ensuring there are no overlaps.
+Here is an example of our Trello board. Each morning we would discuss what we worked on the day before, as well as any issues / delays that require the group to look into collectively. We would then decide what we're working on that day, ensuring there are no overlaps.
 
 ## Division of work
 
 In the backend, I helped contribute with the following:
 
-* Auth & User controllers (Login, Register, Reviews and Showpage)
+* Auth & User controllers (Login, Register, Reviews and Show page)
 * Seeds (equal distrubution between group)
 * User model (Review Schema)
 
@@ -134,9 +134,9 @@ On the frontend I helped with:
 * User page
 * Show page
 * Review page
-* My contribution to styling (SCSS & Bulma)
+* Contribution to styling (SCSS & Bulma)
 
-In addition to this, I also wrote tests for Login and Registering
+In addition to this, I also wrote tests for for Login and Register functions.
 
 ## Featured code: 
 
@@ -204,7 +204,7 @@ This is a snippet taken from the user page and review page. The handleSubmit ens
 
 ## Challenges & future improvements
 
-This was my first encounter using git as a version-control system as a group, and we encountered many issues along the way. Although we were all very careful, there would occasionally be times where one of us would push or pull from the wrong branch, creating some time consuming conflicts that needed fixing. This was a valuable lesson for each of us, since it taught us to be extra communicative whenever we were ready to push a new feature.
+This was my first encounter using git as a version-control system as a group, and we encountered many issues along the way. Although we were all very careful, there would occasionally be times where one of us would accidently push or pull from the wrong branch, creating some time consuming conflicts that needed fixing. This was a valuable lesson for each of us, since it taught us to be extra communicative whenever we were ready to push a new feature.
 
 One future improvement would be to implement reviews & ratings on a user basis (Currently it's anonymous), as well as the ability to see the corresponding rating with each review, which would require some changes in the backend User model (Combining Review & Rating in the userSchema as an object, rather than seperate arrays).
 
@@ -212,7 +212,7 @@ Another 'Nice to have' feature we had planned was to implement second "Recipes" 
 
 ## Wins 
 
-The Offers feature is posbbibly the most complex part of Chow Vow, and getting it to communicate between different users without a relationship-orientated backend was a challenge for the team. One of the original features we wanted to include in our MVP was "Messages", where you can effectively communicate in a Whatsapp style environment privately. We looked into using Socket.io, but given the timescale we decided to srop the feature all together. 
+The Offers feature is posbbibly the most complex part of Chow Vow, and getting it to communicate between different users without a relationship-orientated backend was a challenge for the team. One of the original features we wanted to include in our MVP was "Messages", where you can effectively communicate in a Whatsapp style environment privately. We looked into using Socket.io, but given the timescale we decided to scrap the feature all-together. 
 
 Being able to complete the Offer functionality and have this as a brilliant alternative was a huge win for us as a team.
 
